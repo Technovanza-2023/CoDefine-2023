@@ -1,0 +1,182 @@
+body,html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #175000;
+    font-size:45px;
+    font-family:Tahoma;
+    width:100%;
+    height:100%;
+    margin:0;
+    
+  
+
+}
+.gif-1{
+    background-image: url(https://i.gifer.com/origin/9d/9d68c40b22eee99dd5ea0a1f121cf916.gif);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100px;
+  height:80vh;
+  width:100%;
+  z-index:999;
+  
+
+
+}
+
+  @media only screen and (max-device-width: 1366px) {
+    .gif {
+      background-attachment: scroll;
+    }
+  } 
+
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:rgb(6, 35, 0);
+    overflow: hidden;
+    vertical-align: baseline;
+    
+} 
+.navbar a{
+    float:left;
+    display:flex;
+    color:azure;
+    text-align:center;
+    padding:15px 16px;
+    text-decoration: none;
+    font-size:20px;
+    width:20%;
+    font-weight: 800;
+    min-width: none;
+}
+.navbar a:hover{
+    background:rgb(49, 155, 0);
+    color:rgba(1, 18, 56, 0.784);
+}
+.main{
+    margin-top:30px;
+    padding-top: 10px;
+}
+.heading{
+    text-align:center;
+    color:white;
+    font-family: 'Merriweather', serif;
+    font-size:75px;     
+    width:100%;   
+    z-index: 1000;
+    position:absolute;
+    top:100px;
+    left:auto;  
+    
+}
+.note{
+    font-size:20px;
+    width:30vw;
+    height:120px;
+    color:white;
+    background-color: rgba(3, 26, 0, 0.7);
+    border-radius:10px;
+    padding:2px 15px;
+    border:3px solid rgba(0, 29, 3, 0.868); 
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 1000;
+    margin-top:20px;
+    
+}
+.intro{
+    font-family: 'Merriweather',serif;
+    font-size:70px;
+    padding:0px 20px;
+    color:white;
+    text-align: center;
+}
+.note-head{
+    background-image: url(pics/agriculture-gee127fb1a_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+    height:60vh;
+    width:100%;
+}
+.connections1,.connections2{
+    font-family: Tahoma;
+    color:aliceblue;
+    border:3px rgb(2, 30, 0) solid;
+    border-radius: 5px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+.hidden{
+    opacity:0;
+    transition:all 1s;
+    transform:translateX(-100%);
+    
+}
+@media(prefers-reduced-motion){
+    .hidden{
+        transition:none;
+    }
+}
+.show{
+    opacity:1;
+    transform:translateX(0);
+}
+.flexbox {
+    display:flex;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.flexbox ::-webkit-scrollbar {
+      display: none;
+    }
+
+.note2{
+    font-size:20px;
+    width:30vw;
+    height:200px;
+    color:white;
+    background-color: rgba(3, 26, 0, 0.7);
+    border-radius:10px;
+    padding:2px 15px;
+    border:3px solid rgba(0, 29, 3, 0.868); 
+    display:inline-block;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 1000;
+    margin-top:20px;
+    flex: 0 0 auto;
+    margin-bottom:10px;
+    margin-left: 20px;
+}
+.footer-pic{
+    background-image: url(pics/buffalo-on-the-rice-field-gde90c641f_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+    height:60vh;
+    width:100%;
+
+}
+.footer{
+    color:white;
+    text-align:center;
+    background-color: rgb(1, 17, 0);
+    margin:auto;
+}
